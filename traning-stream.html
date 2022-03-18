@@ -30,17 +30,53 @@
   </head>
   <body class="body">
     <header class="header"> 
-      <div class="container"> 
-        <div class="header__logo">
+      <div class="container"> <a class="header__logo" href="index.html"> 
               <svg class="svgsprite _logo-header">
                 <use xlink:href="assets/img/sprites/svgsprites.svg#logo-header"></use>
-              </svg>
-        </div>
+              </svg></a>
         <nav class="header__nav nav"><a class="nav__link" href="index.html#active">Активности </a><a class="nav__link" href="index.html#traning">Тренировки</a><a class="nav__link" href="index.html#charging">Зарядки</a></nav>
       </div>
     </header>
-    <div class="mobile-menu"> 
-      <nav class="mobile-menu__nav nav"><a class="nav__link" href="index.html#active">Активности </a><a class="nav__link" href="index.html#traning">Тренировки</a><a class="nav__link" href="index.html#charging">Зарядки</a></nav>
+    <div class="mobile-menu"> <a class="nav__link" href="index.html#active">Активности </a><a class="nav__link" href="index.html#traning">Тренировки</a><a class="nav__link" href="index.html#charging">Зарядки</a></div>
+    <div class="calendar__drop calendar__drop-mobile">
+      <div class="calendar-mobile-title">
+         Выберите месяц
+        <div class="calendar-close">
+              <svg class="svgsprite _close">
+                <use xlink:href="assets/img/sprites/svgsprites.svg#close"></use>
+              </svg>
+        </div>
+      </div>
+      <div class="calendar__years">
+        <div class="swiper-wrapper">
+          <div class="calendar__year swiper-slide active">2025</div>
+          <div class="calendar__year swiper-slide">2024</div>
+          <div class="calendar__year swiper-slide">2023</div>
+          <div class="calendar__year swiper-slide">2022</div>
+          <div class="calendar__year swiper-slide">2021</div>
+          <div class="calendar__year swiper-slide">2020</div>
+          <div class="calendar__year swiper-slide">2019</div>
+          <div class="calendar__year swiper-slide">1917</div>
+        </div>
+      </div>
+      <div class="calendar__month">
+        <div class="calendar__row">
+          <div class="calendar__item active">Январь</div>
+          <div class="calendar__item">Февраль</div>
+          <div class="calendar__item">Март</div>
+          <div class="calendar__item">Апрель</div>
+          <div class="calendar__item">Май</div>
+          <div class="calendar__item">Июнь</div>
+        </div>
+        <div class="calendar__row">
+          <div class="calendar__item">Июль</div>
+          <div class="calendar__item">Август</div>
+          <div class="calendar__item">Сентябрь</div>
+          <div class="calendar__item">Октябрь</div>
+          <div class="calendar__item">Ноябрь</div>
+          <div class="calendar__item">Декабрь</div>
+        </div>
+      </div>
     </div>
     <section class="inner-page section-traning">
       <div class="container"> 
