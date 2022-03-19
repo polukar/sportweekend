@@ -601,6 +601,10 @@ button.swiper-pagination-bullet {
   cursor: pointer;
 }
 
+.swiper-pagination-bullet:only-child {
+  display: none !important;
+}
+
 .swiper-pagination-bullet-active {
   opacity: 1;
   background: var(--swiper-pagination-color, var(--swiper-theme-color));
@@ -2342,6 +2346,7 @@ h6 {
   position: relative;
   margin-bottom: 56px;
   width: calc(100% + 20px);
+  overflow: hidden;
 }
 
 .calendar-filter:after {
@@ -2652,7 +2657,7 @@ h6 {
 
 .main__hero-2 {
   width: 1440px;
-  height: 836px;
+  height: 920px;
   background-image: url(../img/heroes/2.png);
 }
 
